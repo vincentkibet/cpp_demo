@@ -1,6 +1,13 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-    std::cout << "Hello from Ubuntu WSL2 on Windows!" << std::endl;
+    int a = 15;
+    int b = 4;
+    cout << a + b << endl;
+    cout << a - b << endl;
+    cout << a * b << endl;
+    cout << a / b << endl;
+    cout << a % b << endl;
     return 0;
 }
